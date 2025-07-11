@@ -44,3 +44,4 @@ jobs:
         name: TestNG Results
         path: target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
+        token: ${{ secrets.GITHUB_TOKEN }} 
